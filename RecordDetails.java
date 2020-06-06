@@ -41,7 +41,7 @@ class  RecordDetails{
                 }
                 System.out.println("Mobile Number(10 digits only) : ");
                 pr1.pnum = sc.nextLong();
-                length = (int)(Math.log10(pr1.pnum)+1);
+                length = (int)((pr1.pnum)+1);
                 while(length != 10){
                         System.out.println("Please enter only 10 digit number.");
                         pr1.pnum = sc.nextLong();
